@@ -1,0 +1,40 @@
+{
+  "name": "portfolio-tracker",
+  "version": "1.0.0",
+  "description": "A demo backend application to create portfolio tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssaultKoder95/portfolio-tracker.git"
+  },
+  "keywords": [
+    "smallcase",
+    "interview",
+    "problem",
+    "javascript",
+    "node"
+  ],
+  "author": "AssaultKoder95 <abhishekkhanna1995@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssaultKoder95/portfolio-tracker/issues"
+  },
+  "homepage": "https://github.com/AssaultKoder95/portfolio-tracker#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "lodash": "^4.17.4",
+    "mocha": "^8.0.1",
+    "moment": "^2.18.1",
+    "mongodb-memory-server": "^6.6.1",
+    "mongoose": "^5.9.19",
+    "morgan": "~1.8.1"
+  }
+}
