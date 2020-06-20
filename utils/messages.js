@@ -42,7 +42,7 @@ const ERR_MESSAGES = {
   NO_USER_FOUND: 'Order can not be placed as no associated user found.',
   NO_TRADE_FOUND: 'No matching trade found.',
   USER_PORTFOLIO_NOT_FOUND: 'No trades found for this user',
-  QTY_GREATER_HOLDING: 'Order can not be placed as sell quantity is higher than holding quantity.',
+  QTY_GREATER_OR_EQUAL_HOLDINGOLDING: 'Order can not be placed as sell quantity is higher than holding quantity.',
 };
 
 module.exports = { errors, ERR_MESSAGES };
