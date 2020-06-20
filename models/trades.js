@@ -3,7 +3,7 @@ const mongoose = require('mongoose'),
 
 const tradeSchema = new Schema(
   {
-    tradeId: { type: String, required: true },
+    tradeId: { type: String, required: true, unique: true },
     orderType: { type: String, required: true, enum: ['BUY', 'SELL'] },
     symbol: { type: String, required: true },
     quantity: { type: String, required: true },
