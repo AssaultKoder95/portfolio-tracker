@@ -2,8 +2,9 @@
   "name": "portfolio-tracker",
   "version": "1.0.0",
   "description": "A demo backend application to create portfolio tracker",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
@@ -37,5 +38,11 @@
     "mongoose": "^5.9.19",
     "morgan": "~1.8.1",
     "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.16.3"
   }
 }
