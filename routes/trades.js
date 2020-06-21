@@ -22,8 +22,8 @@ router.post('/', tradeValidator, async (req, res) => {
       return responseHandler.sendErrorResponse(res, statusCodes.BAD_REQUEST, ERR_MESSAGES.NO_USER_FOUND);
     }
 
-    if (err === 'QTY_GREATER_OR_EQUAL_HOLDINGOLDING') {
-      return responseHandler.sendErrorResponse(res, statusCodes.BAD_REQUEST, ERR_MESSAGES.QTY_GREATER_OR_EQUAL_HOLDINGOLDING);
+    if (err === 'QTY_GREATER_HOLDING') {
+      return responseHandler.sendErrorResponse(res, statusCodes.BAD_REQUEST, ERR_MESSAGES.QTY_GREATER_HOLDING);
     }
 
     responseHandler.sendErrorResponse(res, statusCodes.INTERNAL_ERROR);
