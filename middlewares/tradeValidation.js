@@ -41,7 +41,9 @@ function tradeUpdationValidator(req, res, next) {
   try {
     const { quantity, price } = req.body;
 
-    if (!quantity && !price) throw 'MISSING_SHARE_QUANTITY_AND_PRICE';
+    if (!quantity && !price && quantity !== 0 && price !== 0) {
+		throw 'MISSING_SHARE_QUANTITY_AND_PRICE';
+	}
 
     if (typeof price !== 'number' || Number.isNaN(price)) {
       throw 'INVALID_TYPEOF_SHARE_PRICE';
