@@ -42,7 +42,7 @@ router.get('/holdings/:userId', async (req, res) => {
 router.get('/returns/:userId', async (req, res) => {
   try {
     const userId = req.params.userId;
-    const response = await portfolioController.getReturnsData(userId);
+    const response = await portfolioController.getStocksReturnData(userId);
     responseHandler.sendSuccessResponse(res, statusCodes.SUCCESS, response);
   } catch (err) {
     console.log(`Inside GET /portfolio/returns/${req.params.userId}`, err);
