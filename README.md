@@ -12,9 +12,7 @@ To run this project locally, run the following command `yarn start`, this will s
 
 Alternatively, an easier way is to run this the postman collection, no setups, no hassles.
 
-<!-- To update with prod config => URL pointing to heroku -->
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/94e5460c770f01bda6ce#?env%5BDEV%5D=W3sia2V5IjoiYmFzZV91cmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6NDUwMCIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiaW5zaWRlcl9iYXNlX3VybCIsInZhbHVlIjoiaHR0cDovL2xvY2FsaG9zdDo5MDAwIiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJwdF9iYXNlX3VybCIsInZhbHVlIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiZW5hYmxlZCI6dHJ1ZX1d)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/94e5460c770f01bda6ce#?env%5BProduction%5D=W3sia2V5IjoiYXBpX2Jhc2VfdXJsIiwidmFsdWUiOiJodHRwczovL3BvcnRmb2xpby10cmFja2VyLWRlbW8uaGVyb2t1YXBwLmNvbSIsImVuYWJsZWQiOnRydWV9XQ==)
 
 ### Heroku Deployment
 
