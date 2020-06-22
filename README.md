@@ -61,7 +61,10 @@ On successful completion, the response will contain a JSON with the following at
 
 On failure, API responses & appropriate messages will be passed due to one of the following cases:
 
-- Status Code: 400 - If any of the values is missing or is invalid. - If no associated user account is found ( sell order type case only ) - If sell quantity is greater than or equal to that of quantity present in user account ( sell order type case only )
+- Status Code: 400 
+  - If any of the values is missing or is invalid. 
+  - If no associated user account is found ( sell order type case only ) 
+  - If sell quantity is greater than or equal to that of quantity present in user account ( sell order type case only )
 
 - Status Code: 500
   - Internal server error
