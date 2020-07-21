@@ -31,7 +31,7 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "mocha": "^8.0.1",
     "moment": "^2.18.1",
     "mongodb-memory-server": "^6.6.1",
