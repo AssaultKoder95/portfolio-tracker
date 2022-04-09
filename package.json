@@ -33,7 +33,7 @@
     "express": "~4.15.2",
     "lodash": "^4.17.4",
     "mocha": "^8.0.1",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "mongodb-memory-server": "^6.6.1",
     "mongoose": "^5.9.19",
     "morgan": "~1.8.1",
