@@ -30,7 +30,7 @@
     "chai-http": "^3.0.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "express": "~4.17.3",
     "lodash": "^4.17.4",
     "mocha": "^8.0.1",
     "moment": "^2.18.1",
